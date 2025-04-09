@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "TẤT CẢ SCRIPT"})
-     local Tab2o = MakeTab({Name = "xem"})
+     local Tab2o = MakeTab({Name = "xem đi"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -257,9 +257,14 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb11"))()
   end
 })  AddButton(Tab2o, {
-     Name = "lồn",
+     Name = "buồi",
     Callback = function()
 	  
+  end
+})  AddButton(Tab1o, {
+     Name = "tsuo hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
   end
 })  
 
