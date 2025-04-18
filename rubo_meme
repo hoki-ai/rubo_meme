@@ -243,7 +243,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 })  AddButton(Tab1o, {
      Name = "RUBO_MEMEM HUB",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hoki-ai/rubo_memem-/refs/heads/main/rubo_memem.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hoki-ai/rubo_meme-boy/refs/heads/main/rubo_memem.lua.txt"))()
   end
 })  AddButton(Tab1o, {
      Name = "ZIS RB11 HUB",
