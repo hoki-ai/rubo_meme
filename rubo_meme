@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id= 86449227624220",
+       Image = "http://www.roblox.com/asset/?id= 82083472602102",
        Size = {30, 30},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,7 +31,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "SCRIPT farm"})
-     local Tab2o = MakeTab({Name = "hop"})
 ------- BUTTON
 
      AddButton(Tab1o, {
@@ -250,11 +249,6 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb11"))()
   end
-})  AddButton(Tab2o, {
-     Name = "teddy hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDY-FREEMIUM"))()    
-  end
 })  AddButton(Tab1o, {
      Name = "tsuo hub",
     Callback = function()
@@ -270,23 +264,4 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHubVeriV2.lua"))()
   end
-})  AddButton(Tab2o, {
-     Name = "huysad hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HuySadd/Huy-Sad-Ch-nh-Th-c/refs/heads/main/HuysadV2.lua"))()
-  end
 })  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
